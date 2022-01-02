@@ -31,7 +31,7 @@ export const App = () => {
       setWinsiz(window.screen.width)
     }
   }, []);
-  console.log(countries)
+  // console.log(countries)
 
   return (
     <div className="app">

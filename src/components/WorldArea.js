@@ -8,6 +8,7 @@ import "./css/WorldArea.css";
 
 const WorldArea = (props) => {
     const [dataworld, setDataWorld] = useState({})
+    const [casesType, setCasesType] = useState("cases");
 
     const updateData = async () => {
         let url = "https://kishan-singh-code.github.io/jasonapi/covid/world_data.json";
@@ -30,7 +31,7 @@ const WorldArea = (props) => {
     return (
         <div className="container-fluid" style={{ marginTop: "4rem" }}>
             <div className="row">
-                <div className="col-8">
+                <div className="col-12  col-lg-8">
                     <div className="row">
                         <Map />
                     </div>
@@ -40,13 +41,17 @@ const WorldArea = (props) => {
                         <div className="col-4"><ButtonCard data1={"Deaths"} data2={dataworld.todayDeaths} data3={dataworld.deaths} /></div>
                     </div>
                 </div>
-                <div className="col-4">
-                    <div className="row">
+                <div className="col-12 col-lg-4">
+                    <div className="row ">
+
+
+                        <Graph casesType={casesType} />
+
+                    </div>
+                    <div className="row ">
                         <Leader countries={props.countries} />
                     </div>
-                    <div className="row">
-                        <Graph />
-                    </div>
+
                 </div>
             </div>
 
