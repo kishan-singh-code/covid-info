@@ -1,8 +1,22 @@
-.bg_lol {
-  background: -webkit-linear-gradient(right, #e86b6b, #ff0000);
-  background: linear-gradient(to right, #e86b6b, #ff0000);
-  /* background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-  background: linear-gradient(to right, #25c481, #25b7c4); */
+.bg_lolr {
+  background: -webkit-linear-gradient(right, #ffa4a4, #ff0000);
+  background: linear-gradient(to right, #ffa4a4, #ff0000);
+  /* background: linear-gradient(to right, #e86b6b, #ffa4a4); */
+}
+
+.bg_lolg {
+  background: -webkit-linear-gradient(right, #67f767c0, #00ba00);
+  /* background: linear-gradient(to right, #67f767c0, #00ba00); */
+  background: linear-gradient(to right, #67f767, #00ba00);
+}
+
+.bg_lolp {
+  background: -webkit-linear-gradient(right, #ae83fdc9, #6f42c1);
+  background: linear-gradient(to right, #ae83fdc9, #6f42c1);
+}
+.bg_lolb {
+  background: -webkit-linear-gradient(right, #83c6fdc9, #0d6efd);
+  background: linear-gradient(to right, #83d0fdc9, #0d6efd);
 }
 
 .table-fixed {
@@ -10,7 +24,7 @@
   /* background-color: #3b3535; */
 }
 .table-fixed tbody {
-  height: 250px;
+  height: 200px;
   overflow-y: auto;
   width: 100%;
 }

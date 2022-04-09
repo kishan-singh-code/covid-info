@@ -2,22 +2,25 @@ body {
   background: #eef2fa;
 }
 .education {
-  --bg-color: #fa6d6d;
-  --bg-color-light: #ffbaba;
-  --text-color-hover: #fff;
-  --box-shadow-color: rgba(255, 215, 97, 0.8);
+  --bg-color: #92fcf6;
+  /* --bg-color: #54f7ee; */
+  --bg-color-light: #ffffff;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(97, 255, 252, 0.8);
 }
 
 .credentialing {
   --bg-color: #7cfcb1;
-  --bg-color-light: #e2fced;
-  --text-color-hover: #4c5656;
-  --box-shadow-color: rgba(184, 249, 211, 0.8);
+  /* --bg-color: #1ff879; */
+  --bg-color-light: #ffffff;
+  --text-color-hover: #fff;
+  --box-shadow-color: rgba(62, 247, 139, 0.8);
 }
 
 .wallet {
   --bg-color: #ceb2fc;
-  --bg-color-light: #f0e7ff;
+  /* --bg-color: #ac7cfa; */
+  --bg-color-light: #ffffff;
   --text-color-hover: #fff;
   --box-shadow-color: rgba(206, 178, 252, 0.8);
 }
@@ -111,7 +114,7 @@ body {
   transition: opacity 0.3s ease-out;
 }
 
-.circle svg {
+.circle img {
   z-index: 10000;
   transform: translateZ(0);
 }

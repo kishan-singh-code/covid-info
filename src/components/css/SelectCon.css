@@ -1,0 +1,26 @@
+.mkm {
+  margin-bottom: 0rem;
+  /* text-align: left; */
+}
+.mkmn {
+  margin-bottom: 0rem;
+  /* text-align: left; */
+}
+
+.body_padd {
+  padding: 0rem 0.75rem;
+}
+
+.img_fit {
+  max-height: 160px;
+}
+.img_fit_state {
+  object-fit: contain;
+  height: 180px;
+  width: 100%;
+}
+.img_fit_con {
+  object-fit: contain;
+  height: 110px;
+  width: 100%;
+}

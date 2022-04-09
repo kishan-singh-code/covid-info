@@ -1,0 +1,11 @@
+.padd_map {
+  padding-left: 0.4rem;
+  padding-bottom: 1rem;
+  padding-right: 0.8rem !important;
+  padding-top: 0.8rem;
+}
+.img_fit_con_lol {
+  object-fit: contain;
+  height: 160px;
+  width: 100%;
+}

@@ -1,0 +1,117 @@
+.map {
+  padding: 0.3rem;
+  border-radius: 15px;
+  height: 410px;
+}
+
+.map .leaflet-container {
+  height: 100%;
+  border-radius: 8px;
+}
+
+.padd {
+  padding: 0rem 0rem;
+}
+
+.rad {
+  border-radius: 10px;
+}
+
+.info-flag img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.info-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}
+
+.info-container {
+  width: 150px;
+}
+
+.info-flag {
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.info-confirmed,
+.info-recovered,
+.info-deaths {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.leaflet-popup-content {
+  margin: 0px !important;
+}
+.leaflet-popup-content-wrapper {
+  padding: 0px !important;
+}
+
+.bod {
+  border: 0px !important;
+}
+.body_pad {
+  padding: 0.25rem 0.25rem;
+}
+.leaflet-popup-content p {
+  /* margin: 0px 0 !important ; */
+  margin-top: 0 !important;
+  margin-bottom: 0.2rem !important;
+}
+
+.con {
+  text-align: center;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .leaflet-touch .leaflet-bar {
+    border: 0px !important;
+    background-clip: padding-box;
+  }
+
+  .leaflet-touch .leaflet-bar a:first-child {
+    border-radius: 50% !important;
+    border: 1px solid #0dcaf0 !important;
+  }
+  .leaflet-touch .leaflet-bar a:last-child {
+    border-radius: 50% !important;
+    border: 1px solid #0dcaf0 !important;
+  }
+  .leaflet-touch .leaflet-bar a {
+    width: 25px !important;
+    height: 25px !important;
+    line-height: 24.5px !important;
+  }
+
+  .leaflet-touch .leaflet-control-zoom-in,
+  .leaflet-touch .leaflet-control-zoom-out {
+    font-size: 20px !important;
+  }
+
+  .leaflet-bar a,
+  .leaflet-bar a:hover {
+    background-color: #ffffff82 !important;
+    border-bottom: 1px solid #ccc;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000000bf !important;
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+    /* font: bold 0px "Lucida Console", Monaco, monospace !important; */
+    text-indent: -1px !important;
+    /* font-weight: 600 !important; */
+  }
+}
